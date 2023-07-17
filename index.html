@@ -7,50 +7,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </head>
 
 <body>
-    <div>
-        <header>
-            <h2>Calculator</h2>
-        </header>
-    </div>
+    <div id="hid1">
+        <button id="butn1">Start Calculating</button></div>
+    <div id="rev1">
+        <div>
+            <header>
+                <h2>Calculator</h2>
+            </header>
+        </div>
 
-    <div id="as">
-        <input type="text" id="ans">
-    </div>
-    <div id="num1">
-        <table>
-            <tr>
-                <th><button onclick="clearDisplay()" id="a1">AC</button></th>
-
-            </tr>
-            <tr>
-                <th><button onclick="Calc('7')" id="a5">7</button></th>
-                <th><button onclick="Calc('8')" id="a6">8</button></th>
-                <th><button onclick="Calc('9')" id="a7">9</button></th>
-                <th><button onclick="Calc('*')" id="a8">x</button></th>
-            </tr>
-            <tr>
-                <th><button onclick="Calc('4')" id="a9">4</button></th>
-                <th><button onclick="Calc('5')" id="b">5</button></th>
-                <th><button onclick="Calc('6')" id="b1">6</button></th>
-                <th><button onclick="Calc('-')" id="b2">-</button></th>
-            </tr>
-            <tr>
-                <th><button onclick="Calc('1')" id="b3">1</button></th>
-                <th><button onclick="Calc('2')" id="b4">2</button></th>
-                <th><button onclick="Calc('3')" id="b5">3</button></th>
-                <th><button onclick="Calc('+')" id="b6">+</button></th>
-            </tr>
-            <tr>
-                <th><button onclick="Calc('0')" id="b7">0</button></th>
-                <th><button onclick="Calc('.')" id="b8">.</button></th>
-                <th><button onclick="displayAns()" id="b9">=</button></th>
-                <th><button onclick="Calc('/')" id="a4">/</button></th>
-            </tr>
-        </table>
+        <div id="as">
+            <input type="text" id="ans">
+        </div>
+        <div id="num1">
+            <table>
+                <tr>
+                    <th><button onclick="clearDisplay()" id="a1">AC</button></th>
+                </tr>
+                <tr>
+                    <th><button onclick="Calc('7')" id="a5">7</button></th>
+                    <th><button onclick="Calc('8')" id="a6">8</button></th>
+                    <th><button onclick="Calc('9')" id="a7">9</button></th>
+                    <th><button onclick="Calc('*')" id="a8">x</button></th>
+                </tr>
+                <tr>
+                    <th><button onclick="Calc('4')" id="a9">4</button></th>
+                    <th><button onclick="Calc('5')" id="b">5</button></th>
+                    <th><button onclick="Calc('6')" id="b1">6</button></th>
+                    <th><button onclick="Calc('-')" id="b2">-</button></th>
+                </tr>
+                <tr>
+                    <th><button onclick="Calc('1')" id="b3">1</button></th>
+                    <th><button onclick="Calc('2')" id="b4">2</button></th>
+                    <th><button onclick="Calc('3')" id="b5">3</button></th>
+                    <th><button onclick="Calc('+')" id="b6">+</button></th>
+                </tr>
+                <tr>
+                    <th><button onclick="Calc('0')" id="b7">0</button></th>
+                    <th><button onclick="Calc('.')" id="b8">.</button></th>
+                    <th><button onclick="displayAns()" id="b9">=</button></th>
+                    <th><button onclick="Calc('/')" id="a4">/</button></th>
+                </tr>
+            </table>
+        </div>
     </div>
 </body>
 
