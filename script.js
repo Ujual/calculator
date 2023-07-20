@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $("#butn1").click(function() {
         $("#hid1").hide(2000);
-        $("#rev1").show(2100)
+        $("#rev1").show(2300);
     });
 });
 
